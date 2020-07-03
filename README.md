@@ -3,12 +3,14 @@ Welcome to the home of the WRBAA website!
 
 ## Installation
 ### Requirements
+* [php 7.4.7 or higher](https://www.php.net/downloads)
+* [apache server](https://httpd.apache.org/download.cgi)
 * [fatfree-core](https://github.com/bcosca/fatfree-core), the backbone of this website
 * [f3-access](https://github.com/xfra35/f3-access), used for creating secure access
 * [plume-css](https://github.com/felippe-regazio/plume-css), used to make things look pretty
 
 ### Installing
-Run this in the terminal in the root directory of choice. It should get all your files set up! Because we are not using a relational database, we don't have to worry about using a webserver so this really should be just plug-n-play. 
+You must first install PHP and apache server. Once you have those set up, run the following snippet in the terminal in a directory of your choice (ideally where your apache server points to). It should get all your files set up!
 ```bash
 git clone https://github.com/yardasol/wrbaa/;
 cd wrbaa; mkdir tmp; mkdir packages
