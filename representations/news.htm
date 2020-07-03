@@ -1,0 +1,7 @@
+<!-- news.htm --><!-- NEED TO FIGURE OUT HOW TO ADD CONTENT -->
+<repeat group="{{ @newsDBItems }}" value="{{ @item }}">
+    <h3>{{ @item.newsHeadline }}</h3>
+    <p>{{ @item.newsDate }}</p>
+    <p>{{ @item.newsSummary }}</p>
+    <p>{{ @item.newsDescription }}</p>
+</repeat>
