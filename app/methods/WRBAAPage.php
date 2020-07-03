@@ -31,7 +31,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       $pageDBFile = join(array($pageDB,'.json'));
       $pageFile = join(array($page, '.htm'));
 
-      $pageDBItems=new DB\Jig\Mapper($f3->get($pageDB),$pageDBFile);
+      $pageDBItems=new \DB\Jig\Mapper($f3->get($pageDB),$pageDBFile);
       $pageDBItems=$pageDBItems->find();
       $f3->set('content',$pageFile);
       $f3->set(join(array($pageDB,'Items')),$pageDBItems);

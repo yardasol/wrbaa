@@ -1,6 +1,6 @@
 <!-- archives.htm --><!-- NEED TO FIGURE OUT HOW TO ADD CONTENT -->
 <repeat group="{{ @archivesDBItems }}" value="{{ @item }}">
       <h3>{{ @item.fileTitle }}</h3>
-      <img src="{{ @item.filePath }}" alt="{{ @item.fileTitle }}">
+      <img src="{{ @BASE }}/{{ @item.filePath }}" alt="{{ @item.fileTitle }}">
       <p>{{ @item.fileDescription }}</p>
 </repeat>

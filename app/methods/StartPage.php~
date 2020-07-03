@@ -19,28 +19,27 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 
-  class Login extends WRBAAPage {
-    public String $pageName = "Login";
+  class StartPage {
+    public String $pageName = "Start";
+
+    //public function beforeRoute($f3) {
+    //  echo Template::instance()->render('start.htm');
+    // }
+    
 
     public function get($f3) {
-      $users = new \DB\Jig\Mapper($db,'users.JSON');
-      $userList = $users->find(array('(isset(@username)');
-      $auth = new \Auth($users, array('id'=>'username', 'pw'=>'password'));
-      //if($login_result = $auth->login('
-      if ($auth->basic()) {
-        //store the name they logged in with
-        $f3->set('SESSION.user', 'SERVER.PHP_AUTH_USER');
-      }
-      else {
-        $f3->error(401);
-      }
-      //the following will display an HTTP 401 Unauthorized error page if unsuccessful
-      $auth->basic();
-      $f3->set('content','login.htm');
-      $f3->set('title', join(" ", array($this->titleSuffix, $this->pageName)));
-      echo Template::instance()->render('wrbaa.htm')`
+      echo Template::instance()->render('start.htm');
+      //(if(isset($_POST['submit']))){
+      //  $passwordHash = password_hash(htmlspecialchars($_POST['password']),PASSWORD_ARGON2ID);
+      //  $usernameHash = password_hash(htmlspecialchars($_POST['username']),PASSWORD_ARGON2ID);
+      //  $f3->map('/','StartPage');
+      //}
     }
-    //function post() {}
+
+
+    public function post() {
+     echo $_SERVER['PHP_SELF']; 
+    }
     //function put() {}
     //function delete {}
   }
