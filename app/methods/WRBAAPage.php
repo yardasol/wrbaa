@@ -18,7 +18,6 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-
   class WRBAAPage {
     private String $titlePrefix = "WRBAA - GCXCT&F Alumni Association - ";
 
@@ -40,9 +39,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       echo Template::instance()->render('wrbaa.htm');
     }
 
-    public function post($f3,$page) {
-
-    }
+    //public function post() {}
     //public function put() {}
     //public function delete {}
   }
