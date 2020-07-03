@@ -1,13 +1,13 @@
 # wrbaa
 Welcome to the home of the WRBAA website!
 
-#Installation
-##Requirements
+# Installation
+## Requirements
 -[fatfree-core](https://github.com/bcosca/fatfree-core), the backbone of this website
 -[f3-access](https://github.com/xfra35/f3-access), used for creating secure access
 -[plume-css](https://github.com/felippe-regazio/plume-css), used to make things look pretty
 
-#Installing
+## Installing
 Running this in the terminal should get all your files set up.
 ```bash
 git clone https://github.com/yardasol/wrbaa/
