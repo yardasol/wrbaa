@@ -22,3 +22,6 @@ mv -r plume-css packages/plume-css
 ```
 
 Be sure to read the documentation for each of these packages!
+
+## Miscellaneous information
+This application was desinged with a ReSTful API, and to truly embrace its place on the web, I have used Resource-Method-Representation (RMR) architecture rather than an MVC architecture (an MVC approach would bloat this project quite a bit!). You can read more about RMR architecture [here](https://www.peej.co.uk/articles/rmr-architecture.html).
