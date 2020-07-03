@@ -1,4 +1,6 @@
-/*
+<?php
+/* WRBAAPage.php
+
 <one line to give the program's name and a brief idea of what it does.>
 Copyright (C) 2020 Oleksandr Yardas
 
@@ -15,8 +17,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-                              
-<?php
+
+
   class WRBAAPage {
     private String $titlePrefix = "WRBAA - GCXCT&F Alumni Association - ";
 

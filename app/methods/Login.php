@@ -1,5 +1,6 @@
-/* Login.php */
-/*
+ <?php
+/* Login.php 
+
 <one line to give the program's name and a brief idea of what it does.>
 Copyright (C) 2020 Oleksandr Yardas
 
@@ -17,7 +18,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
- <?php
+
   class Login extends WRBAAPage {
     public String $pageName = "Login";
 
