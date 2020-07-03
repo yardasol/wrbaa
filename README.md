@@ -8,14 +8,17 @@ Welcome to the home of the WRBAA website!
 * [plume-css](https://github.com/felippe-regazio/plume-css), used to make things look pretty
 
 ### Installing
-Running this in the terminal should get all your files set up.
+Run this in the terminal in the root directory of choice. It should get all your files set up! Because we are not using a relational database, we don't have to worry about using a webserver so this really should be just plug-n-play. 
 ```bash
-git clone https://github.com/yardasol/wrbaa/
-cd wrbaa
-mkdir packages
+git clone https://github.com/yardasol/wrbaa/;
+cd wrbaa; mkdir tmp; mkdir packages
 git clone https://github.com/bcosca/fatfree-core
 git clone https://github.com/xfra35/f3-access
 git clone https://github.com/felippe-regazio/plume-css
+cd ../; sudo chmod -R 777 wrbaa; cd wrbaa
+mv -r fatfree-core packages/fatfree-core
+mv -r f3-access packages/f3-access
+mv -r plume-css packages/plume-css
 ```
 
 Be sure to read the documentation for each of these packages!
