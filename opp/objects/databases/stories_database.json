@@ -1,0 +1,28 @@
+{
+    "record_id": {
+        "storyTitle": "",
+        "storySummary": "",
+        "storyContent": "",
+        "storyFiles": [
+            {
+                "fileType": "",
+                "fileTitle": "",
+                "fileDescription": "",
+                "filePath": ""
+            }
+        ]
+    },
+    "5f0cfac5485048.29697789": {
+        "storyTitle": "The Ugly Barnacle",
+        "storySummary": "A story about an ugly baracle",
+        "storyContent": "There once was an ugly barnacle. He was so ugly that everyone died. The end!",
+        "storyFiles": [
+            {
+                "fileType": "",
+                "fileTitle": "",
+                "fileDescription": "",
+                "filePath": ""
+            }
+        ]
+    }
+}

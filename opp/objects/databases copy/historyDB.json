@@ -1,0 +1,54 @@
+{
+    "record_id": {
+        "historyPeriod": "",
+        "historySummary": "",
+        "historyDescription": "",
+        "historyFiles": {
+            "file_id": {
+                "fileType": "",
+                "fileTitle": "",
+                "fileDescription": "",
+                "filePath": ""
+            }
+        }
+    },
+    "5efe6d5ecc82c6.66175975": {
+        "historyPeriod": "The Ancient Times ???-1980",
+        "historySummary": "summary of this time period",
+        "historyDescription": "detailed description of this time period",
+        "historyFiles": {
+            "file_id": {
+                "fileType": "",
+                "fileTitle": "",
+                "fileDescription": "",
+                "filePath": ""
+            }
+        }
+    },
+    "5efe6e3cb52595.60430947": {
+        "historyPeriod": "The Freeman Years 1980-2020",
+        "historySummary": "summary of this time period",
+        "historyDescription": "detailed description of this time period",
+        "historyFiles": {
+            "file_id": {
+                "fileType": "",
+                "fileTitle": "",
+                "fileDescription": "",
+                "filePath": ""
+            }
+        }
+    },
+    "5efe6e3e0eea03.99629274": {
+        "historyPeriod": "A New Era 2020-present",
+        "historySummary": "summary of this time period",
+        "historyDescription": "detailed description of this time period",
+        "historyFiles": {
+            "file_id": {
+                "fileType": "",
+                "fileTitle": "",
+                "fileDescription": "",
+                "filePath": ""
+            }
+        }
+   }
+}

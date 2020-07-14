@@ -1,0 +1,23 @@
+{
+    "record_id": {
+        "eventName": "",
+        "eventDate": "",
+        "eventLocation": "",
+        "eventDescription": "",
+        "eventFiles": {
+            "file_id": {
+                "fileType": "",
+                "fileTitle": "",
+                "fileDescription": "",
+                "filePath": ""
+            }
+        }
+    },
+    "5efe6d5ecc82c6.66175975": {
+        "eventName": "Whi$skey Weekend",
+        "eventDate": "whenever coronavirus is over",
+        "eventLocation": "The $lum",
+        "eventDescription": "This is just an excuse to break stuff...",
+        "eventFiles": "Array"
+    }
+}

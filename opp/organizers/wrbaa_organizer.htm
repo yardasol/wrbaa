@@ -1,0 +1,35 @@
+<body>
+  <!-- header.htm -->
+  <h1 style="text-align:center;">
+    Welcome to the Weasel-Roo-Beast Alumni Association!
+  </h1>
+  <!-- <form action = "{{ @BASE }}/entry" method="get"> -->
+  <!-- <input type="hidden" name="token_logout" value="TRUE"/> -->
+  <!-- <button type="submit">Logout</button> -->
+  <!-- </form> -->
+  <h3 style="text-align:center;">
+    <a href="{{@BASE}}{{ '_page_view', 'page=home' | alias }}">Home</a> |
+    <a href="{{@BASE}}{{ '_page_view', 'page=news' | alias }}">News</a> |
+    <a href="{{@BASE}}{{ '_page_view', 'page=events' | alias }}">Events</a> |
+    <a href="{{@BASE}}{{ '_page_view', 'page=people' | alias }}">People</a> |
+    <a href="{{@BASE}}{{ '_page_view', 'page=archives' | alias }}">Archives</a> |
+    <a href="{{@BASE}}{{ '_page_view', 'page=stories' | alias }}">Stories</a> |
+    <a href="{{@BASE}}{{ '_page_view', 'page=history' | alias }}">History</a> |
+    <a href="{{@BASE}}{{ '_page_view', 'page=lore' | alias }}">Lore</a>
+  </h3>
+  <form action = "{{ @BASE }}{{ '_page_logout' | alias }}" method="get">
+    <button type="submit">Logout</button>
+  </form>
+  <form action = "{{ @BASE }}{{ '_record_add' | alias }}" method="get">
+    <button type="submit">Add</button>
+  </form>
+  <repeat group="{{ @database_records }}" value="{{ @record }}">
+    <include href="{{ @data_organizer }}"/>
+    <form action = "{{ @BASE }}{{ '_record_edit', 'record_id='.urlencode(@record._id) | alias }}" method="get">
+      <button type="submit">Edit</button>
+    </form>
+    <form action = "{{ @BASE }}{{ '_record_remove', 'record_id='.urlencode(@record._id) | alias }}" method="post">
+      <button type="submit">Remove</button>
+    </form>
+  </repeat>
+</body>

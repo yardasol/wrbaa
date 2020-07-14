@@ -1,0 +1,8 @@
+<form action = "{{ @BASE }}{{ '_record_save' | alias }}" method="post">
+    <repeat group="{{ @record }}" key="{{ @record_field }}" value="{{ @field_value }}">
+      <label for="{{ @record_field }}">{{ @record_field }}:</label><br>
+      <input type="text" id="{{ @record_field }}" name="{{ @record_field }}" value="{{ @field_value }}"><br>
+    </repeat>
+    <input type="submit" name="button"  value="Submit">
+    <input type="submit" name="button" value="Cancel">
+</form>

@@ -1,0 +1,80 @@
+{
+    "record_id": {
+        "loreItem": "",
+        "loreSummary": "",
+        "loreDescription": "",
+        "loreFiles": {
+            "file_id": {
+                "fileType": "",
+                "fileTitle": "",
+                "fileDescription": "",
+                "filePath": ""
+            }
+        }
+    },
+    "5efe6d5ecc82c6.66175975": {
+        "loreItem": "The Weasels",
+        "loreSummary": "item summary",
+        "loreDescription": "item description",
+        "loreFiles": {
+            "file_id": {
+                "fileType": "",
+                "fileTitle": "",
+                "fileDescription": "",
+                "filePath": ""
+            }
+        }
+    },
+    "5efe6e3cb52595.60430947": {
+      "loreItem": "The Roos",
+      "loreSummary": "item summary",
+      "loreDescription": "item description",
+      "loreFiles": {
+          "file_id": {
+              "fileType": "",
+              "fileTitle": "",
+              "fileDescription": "",
+              "filePath": ""
+          }
+      }
+    },
+    "5efe6e3e0eea03.99629274": {
+      "loreItem": "The Beasts",
+      "loreSummary": "item summary",
+      "loreDescription": "item description",
+      "loreFiles": {
+          "file_id": {
+              "fileType": "",
+              "fileTitle": "",
+              "fileDescription": "",
+              "filePath": ""
+          }
+      }
+    },
+    "5efe6e5aa096f8.86042521": {
+      "loreItem": "Mo Facke",
+      "loreSummary": "item summary",
+      "loreDescription": "item description",
+      "loreFiles": {
+          "file_id": {
+              "fileType": "",
+              "fileTitle": "",
+              "fileDescription": "",
+              "filePath": ""
+          }
+      }
+    },
+    "5efe6e5fce95e0.24619798": {
+      "loreItem": "The -2 Book",
+      "loreSummary": "item summary",
+      "loreDescription": "item description",
+      "loreFiles": {
+          "file_id": {
+              "fileType": "",
+              "fileTitle": "",
+              "fileDescription": "",
+              "filePath": ""
+          }
+      }
+    }
+}
