@@ -1,0 +1,9 @@
+[submodule "packages/fatfree-core"]
+	path = packages/fatfree-core
+	url = git@github.com:bcosca/fatfree-core
+[submodule "packages/f3-access"]
+	path = packages/f3-access
+	url = git@github.com:xfra35/f3-access
+[submodule "packages/plume-css"]
+	path = packages/plume-css
+	url = git@github.com:felippe-regazio/plume-css
